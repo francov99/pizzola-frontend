@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/admin.css">
+
+    <title>Pizzola Admin Panel</title>
+</head>
+<body>
+
+    <header>
+        <a class="home-router" href="./index.html">
+            <img src="./assets/home.svg" alt="inicio">
+        </a>
+    </header>
+
+    <main>
+        <h2>Hola Chef!</h2>
+        <img src="./assets/logo.svg" alt="logo">
+        <p>Aquí puedes ver los items de pizzola, puedes <strong>agregar</strong> y <strong>eliminar</strong> los items</p>
+
+        <form id="form">
+            <input id="name" placeholder="Nombre" type="text" />
+            <input id="description"  placeholder="Descripción" type="text" />
+            <input id="price"  placeholder="Precio" type="number" />
+            <input id="image" placeholder="link imagen" type="text">
+            <button style="background-color: green; color: white;" type="submit">Añadir pizza</button>
+        </form>
+
+        <div class="items-wrapper"></div>
+    </main>
+    
+    <script src="js/utils/api.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

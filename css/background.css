@@ -1,0 +1,11 @@
+main {
+    background-color: bisque;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    background-image: url('../assets/1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

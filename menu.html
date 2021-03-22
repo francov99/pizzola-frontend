@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/items.css">
 
     <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
 
@@ -22,8 +23,8 @@
         </div>
 
         <ul>
-            <li><a class="focus" href="#">Inicio</a></li>
-            <li><a href="./menu.html">Menú</a></li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a class="focus" href="./menu.html">Menú</a></li>
         </ul>
 
         <div class="social-media">
@@ -39,11 +40,20 @@
         </div>
     </header>
 
-    <main></main>
+    <main>
+        <div class="menu-wrapper">
+            <div class="title">
+                <h3>Menú</h3>
+                <hr />
+            </div>        
+        </div>
+    </main>
 
     <a class="admin-router" href="./admin.html">
         <img src="./assets/editar.svg" alt="editar">
     </a>
-    
+
+    <script src="js/utils/api.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
-</html>
+</html> 

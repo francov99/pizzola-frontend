@@ -1,0 +1,128 @@
+body {
+    display: grid; 
+    place-content: center;
+    padding: 1rem;
+}
+
+button {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+/*--------------------------------------------------------Header*/
+header {
+    width: 90vw;
+    padding: 15px;
+}
+
+.home-router {
+
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.home-router:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.home-router img {
+    width: 30px;
+    height: 30px;
+}
+
+/*--------------------------------------------------------Main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+main img{
+    width: 150px;
+}
+
+main .items-wrapper {
+    margin: 5px 0;
+}
+
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0);
+    color: white;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.card img {
+    width: 80px;
+    margin-right: 5px;
+}
+
+.card p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin: 0 5px;
+    color: slategray;
+}
+
+.card h3 {
+    font-size: 0.8rem;
+}
+
+.card span {
+    color: seagreen;
+}
+
+.delete {
+    background-color: rgb(182, 70, 70);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.delete:hover {
+    background-color: rgb(182, 130, 70);
+}
+
+.delete img {
+    width: 20px;
+    height: 20px;
+}
+
+/*--------------------------------------------------FORM*/
+main form {
+    margin: 25px 0;
+}
+
+main form input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid bisque;
+    color: black;
+    font-size: 700;
+    outline-color: cornflowerblue;
+}

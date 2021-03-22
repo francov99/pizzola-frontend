@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.full-screen-wrapper {
+    background-image: url('./assets//carousel/1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+}
+
+.admin-router {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.admin-router:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.admin-router img {
+    width: 30px;
+    height: 30px;
+}
